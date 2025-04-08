@@ -1,12 +1,19 @@
 # beep
 beep on motherboard speaker
 
-> sudo ./beep
+# Make
 ```
-usage: ./beep <frequency> <duration>
+make all
+sudo make install
 ```
 
-> sudo ./beep-keyboard
+# Running
+> sudo beep
+```
+usage: beep <frequency> <duration>
+```
+
+> sudo beep-keyboard
 ```
  we tyu op ]
 asdfghjkl;'\
