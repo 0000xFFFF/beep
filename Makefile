@@ -17,7 +17,8 @@ clean:
 	rm -f beep-keyboard
 
 install:
-	install -m 755 $(EXEC) $(BINDIR)
+	install -m 755 beep $(BINDIR)
+	install -m 755 beep-keyboard $(BINDIR)
 
 uninstall:
 	rm -f $(BINDIR)/$(EXEC)
