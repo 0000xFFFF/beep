@@ -4,10 +4,10 @@ PREFIX = /usr/local
 BINDIR = $(PREFIX)/bin
 
 beep:
-	$(GCC) $(ARGS) $(ARGS) src/beep.c -o beep
+	$(GCC) $(ARGS) src/beep.c -o beep
 
 beep-keyboard:
-	$(GCC) $(ARGS) $(ARGS) src/beep-keyboard.c -o beep-keyboard
+	$(GCC) $(ARGS) src/beep-keyboard.c -o beep-keyboard
 
 all: beep beep-keyboard
 release: all
