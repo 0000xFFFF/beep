@@ -3,10 +3,10 @@ ARGS = -Wall -Wextra
 PREFIX = /usr/local
 BINDIR = $(PREFIX)/bin
 
-beep:
+beep: src/beep.c
 	$(GCC) $(ARGS) src/beep.c -o beep
 
-beep-keyboard:
+beep-keyboard: src/beep-keyboard.c
 	$(GCC) $(ARGS) src/beep-keyboard.c -o beep-keyboard
 
 all: beep beep-keyboard
